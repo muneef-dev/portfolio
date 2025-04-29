@@ -430,3 +430,57 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+/* Work Experience Beautification */
+#work .details-container {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin: 2rem 0;
+}
+
+#work h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+#work p.section__text__p2 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+#work ul {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+
+#work ul li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  position: relative;
+}
+
+/* Optional: custom bullet icon */
+#work ul li::marker {
+  color: #007acc;
+  font-size: 1.2rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  #work .details-container {
+    padding: 1.5rem;
+  }
+  #work h3 {
+    font-size: 1.6rem;
+  }
+  #work p.section__text__p2 {
+    font-size: 0.9rem;
+  }
+}
